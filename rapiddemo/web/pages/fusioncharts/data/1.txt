@@ -1,0 +1,59 @@
+{
+   "chart": {
+	  "caption": "去年每月的收入",
+	  "subCaption": "哈利的超市",
+	  "xAxisName": "月",
+	  "yAxisName": "收入",
+	  "theme": "zune"
+   },
+   "data": [
+	  {
+		 "label": "一月",
+		 "value": "420000"
+	  },
+	  {
+		 "label": "二月",
+		 "value": "810000"
+	  },
+	  {
+		 "label": "三月",
+		 "value": "720000"
+	  },
+	  {
+		 "label": "四月",
+		 "value": "550000"
+	  },
+	  {
+		 "label": "五月",
+		 "value": "910000"
+	  },
+	  {
+		 "label": "六月",
+		 "value": "510000"
+	  },
+	  {
+		 "label": "七月",
+		 "value": "680000"
+	  },
+	  {
+		 "label": "八月",
+		 "value": "620000"
+	  },
+	  {
+		 "label": "九月",
+		 "value": "610000"
+	  },
+	  {
+		 "label": "十月",
+		 "value": "490000"
+	  },
+	  {
+		 "label": "十一月",
+		 "value": "900000"
+	  },
+	  {
+		 "label": "十二月",
+		 "value": "730000"
+	  }
+   ]
+}

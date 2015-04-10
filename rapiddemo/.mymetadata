@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="rapiddemo"
+  id="myeclipse.1411547466593"
+  context-root="/rapiddemo"
+  j2ee-spec="5.0"
+  archive="rapiddemo.war">
+  <attributes>
+    <attribute name="webrootdir" value="web" />
+  </attributes>
+</project-module>
+

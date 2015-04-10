@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - test@localhost" uuid="34db7f69-f43f-4bbb-969b-bf0f77f42c43">
+    <database-info product="MySQL" version="5.0.18-nt" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="test"/>
+    <table name="t_activity" schema="" catalog="test" type="TABLE">
+      <column name="ACTIVITYID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="SERVERID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="TYPEID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="SORTID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="ACTIVITYNAME" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ECOUPON_ID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="CONTENTS" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="KEYWORD" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12"/>
+      <column name="REQUIRES" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="CONDITIONS" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="SMPIC" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12"/>
+      <column name="BIGPIC" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12"/>
+      <column name="STATUS" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="DAYTAKE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TOTALTAKE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="DAYSUM" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TAKESUM" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TOTAL" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TAKESTART" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="TAKEEND" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="VILID" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12"/>
+      <column name="REMARK" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SHOPID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="SHOPNAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="STOREID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="STORENAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CREATOR" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CREATETIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="EDITOR" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="EDITTIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="ALLOWSTORE" sqlType="VARCHAR" precision="2000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="VILIDTYPE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="VILIDDAY" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="PRINTS" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="WORTH" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="AWARDEXPLAIN" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12"/>
+      <column name="NEEDMOBILE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="SMSA" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SMSB" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="RULETYPE" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CASHSTART" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="CASHEND" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="PRIME" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="REBATE" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="MARKET" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="ICONSID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="ATTENTIONURL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="INTEGRAL" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TAKETYPE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5q+P5Lq65Y+C5LiO5pa55byP"/>
+      <column name="LIMITTYPE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="6ZmQ5Yi257G75Z6L"/>
+      <column name="LIMITSUMS" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="6ZmQ5Yi25pWw6YeP"/>
+      <column name="NEEDG" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5omA6ZyA5oiQ6ZW/5YC8"/>
+      <column name="VILIDSTART" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pyJ5pWI5pyf57G75Z6L5Li65Zu65a6a5pel5pyf5pe25pyJ5pWI6LW35pyf"/>
+      <column name="VILIDEND" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pyJ5pWI5pyf57G75Z6L5Li65Zu65a6a5pel5pyf5pe25pyJ5pWI5q2i5pyf"/>
+      <column name="FANSID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="57KJ5LidaWQ="/>
+      <primary-key name="PRIMARY" columns="ACTIVITYID"/>
+      <foreign-key name="t_activity_ibfk_1" columns="ICONSID" ref-table="t_icons" ref-schema="" ref-catalog="test" ref-columns="ICONSID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_haircoupon_activityid" table="t_haircoupon" schema="" catalog="test" columns="activityid"/>
+      <exported-key name="fk_hallowmas_acitivityid" table="t_hallowmas" schema="" catalog="test" columns="ACTIVITYID"/>
+      <index name="t_activity_ibfk_1" unique="false" columns="ICONSID"/>
+    </table>
+    <table name="t_base_ecode" schema="" catalog="test" type="TABLE">
+      <column name="ECODEID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="CODEDATA" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CODE" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CODEFILE" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CODELEN" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="CODETYPE" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="CREATETIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="ECODEID"/>
+    </table>
+    <table name="t_haircoupon" schema="" catalog="test" type="TABLE">
+      <column name="haircouponid" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="SUQ=" autoIncrement="true"/>
+      <column name="activityid" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="5rS75YqoSUQ="/>
+      <column name="personname" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12" remarks="5aeT5ZCN"/>
+      <column name="mobile" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12" remarks="5omL5py65Y+3"/>
+      <column name="amount" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="57qi5YyF6YeR6aKd"/>
+      <column name="status" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5pWw5o2u54q25oCB"/>
+      <column name="verifytime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="6aqM56CB5pe26Ze0"/>
+      <column name="cashstart" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pyJ5pWI5pyf5byA5aeL5pe26Ze0"/>
+      <column name="cashend" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5pyJ5pWI5pyf57uT5p2f5pe26Ze0"/>
+      <column name="shopid" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5" remarks="6Zeo5bqXSUQ="/>
+      <column name="shopname" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="6Zeo5bqX5ZCN56ew"/>
+      <column name="wxno" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12" remarks="5b6u5L+h5Y+3"/>
+      <column name="createtime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="codedata" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12" remarks="5LqM57u056CB"/>
+      <column name="codefile" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="5LqM57u056CB5Zu+54mH5Zyw5Z2A"/>
+      <column name="content" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="5Y2h5Yi45YaF5a65"/>
+      <column name="packname" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="5Y2h5YyF5ZCN56ew"/>
+      <column name="codetype" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="56CB57G75Z6L"/>
+      <primary-key name="PRIMARY" columns="haircouponid"/>
+      <foreign-key name="fk_haircoupon_activityid" columns="activityid" ref-table="t_activity" ref-schema="" ref-catalog="test" ref-columns="ACTIVITYID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_haircoupon_activityid" unique="false" columns="activityid"/>
+    </table>
+    <table name="t_hallowmas" schema="" catalog="test" type="TABLE">
+      <column name="HALLOWMASID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="SUQ=" autoIncrement="true"/>
+      <column name="ACTIVITYID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="5rS75YqoSUQ="/>
+      <column name="WXNO" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5b6u5L+h5Y+3"/>
+      <column name="CREATETIME" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93" def="Jyc=" remarks="5Yib5bu65pe26Ze0"/>
+      <column name="CODEDATA" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CODEFILE" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="STATUS" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6" def="MA==" remarks="54q25oCB"/>
+      <column name="VERIFYTIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="6aqM6K+B5pe26Ze0"/>
+      <column name="CONTENT" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SHOPID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" remarks="6Zeo5bqXSUQ="/>
+      <column name="SHOPNAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="6Zeo5bqX5ZCN56ew"/>
+      <column name="PRIZETYPE" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA==" remarks="5aWW5ZOB57G75Z6L"/>
+      <column name="AMOUNT" sqlType="DOUBLE" precision="11" scale="2" nullable="true" jdbcType="8" remarks="6YeR6aKd"/>
+      <column name="CODETYPE" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="HALLOWMASID"/>
+      <foreign-key name="fk_hallowmas_acitivityid" columns="ACTIVITYID" ref-table="t_activity" ref-schema="" ref-catalog="test" ref-columns="ACTIVITYID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_wxno_prizetype" unique="true" columns="WXNO,PRIZETYPE"/>
+      <index name="fk_hallowmas_acitivityid" unique="false" columns="ACTIVITYID"/>
+      <index name="index_activityid" unique="false" columns="ACTIVITYID"/>
+      <index name="index_shopid" unique="false" columns="SHOPID"/>
+    </table>
+    <table name="t_pos_config" schema="" catalog="test" type="TABLE">
+      <column name="SMARTID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="POSNO" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="VIDEOURL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LOGOURL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="WXCODEURL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="BGURL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="DEFAULTPHOTOURL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CREATETIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="CREATOR" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="UPDATETIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="UPDATOR" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ISVALID" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SHOPID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="SHOPNAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="USEDISCO" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
+      <column name="QUANTYPE" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
+      <column name="QUANVALUE" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="VALIDSTART" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="VALIDEND" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="CODEDATA" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CODEFILE" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CODETYPE" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="SMARTID"/>
+    </table>
+    <table name="t_user_info" schema="" catalog="test" type="TABLE">
+      <column name="user_id" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5Li76ZSuSWQ="/>
+      <column name="username" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="55So5oi35ZCN"/>
+      <column name="PASSWORD" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc=" remarks="5a+G56CB"/>
+      <column name="birth_date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93" remarks="55Sf5pel"/>
+      <column name="sex" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" remarks="5oCn5Yir"/>
+      <column name="age" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" remarks="5bm06b6E"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+      <index name="pk_t_user_info" unique="true" columns="user_id"/>
+    </table>
+    <table name="t_wxuser_pos" schema="" catalog="test" type="TABLE">
+      <column name="USERID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="WXNO" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SHOPID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="SHOPNAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="GENERALID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <column name="CREATETIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="CODEDATA" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="VERIFYTIME" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="STATUS" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
+      <column name="SMARTID" sqlType="BIGINT" precision="19" scale="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="USERID"/>
+    </table>
+  </data-source>
+</component>

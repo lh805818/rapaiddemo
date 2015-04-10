@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="aopalliance.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/aopalliance.jar!/"/>
+	</lib>
+	<lib name="aspectjrt.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/aspectjrt.jar!/"/>
+	</lib>
+	<lib name="aspectjweaver.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver.jar!/"/>
+	</lib>
+	<lib name="cglib-nodep-2.1_3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/cglib-nodep-2.1_3.jar!/"/>
+	</lib>
+	<lib name="commons-beanutils.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils.jar!/"/>
+	</lib>
+	<lib name="commons-codec-1.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.3.jar!/"/>
+	</lib>
+	<lib name="commons-collections.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-collections.jar!/"/>
+	</lib>
+	<lib name="commons-dbcp.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp.jar!/"/>
+	</lib>
+	<lib name="commons-fileupload.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload.jar!/"/>
+	</lib>
+	<lib name="commons-io.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-io.jar!/"/>
+	</lib>
+	<lib name="commons-lang-2.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.4.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.jar!/"/>
+	</lib>
+	<lib name="commons-pool.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-pool.jar!/"/>
+	</lib>
+	<lib name="dbunit-2.4.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/dbunit-2.4.2.jar!/"/>
+	</lib>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="hibernate-validator-4.1.0.Final.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate-validator-4.1.0.Final.jar!/"/>
+	</lib>
+	<lib name="jakarta-oro.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jakarta-oro.jar!/"/>
+	</lib>
+	<lib name="jaxb-api-2.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jaxb-api-2.2.jar!/"/>
+	</lib>
+	<lib name="jstl.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar!/"/>
+	</lib>
+	<lib name="junit-4.8.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/junit-4.8.1.jar!/"/>
+	</lib>
+	<lib name="log4j-1.2.16.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.16.jar!/"/>
+	</lib>
+	<lib name="log4jdbc4-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4jdbc4-1.2.1.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.0.5-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.5-bin.jar!/"/>
+	</lib>
+	<lib name="org.springframework.aop-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.aop-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.asm-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.asm-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.aspects-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.aspects-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.beans-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.beans-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.context-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.context-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.context.support-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.context.support-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.core-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.core-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.expression-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.expression-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.instrument-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.instrument-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.instrument.tomcat-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.instrument.tomcat-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.jdbc-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.jdbc-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.jms-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.jms-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.orm-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.orm-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.oxm-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.oxm-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.test-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.test-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.transaction-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.transaction-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.web-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.web.portlet-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.portlet-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.web.servlet-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.servlet-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.web.struts-3.0.3.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.struts-3.0.3.RELEASE.jar!/"/>
+	</lib>
+	<lib name="rapid-framework-3.9.3.20100923.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/rapid-framework-3.9.3.20100923.jar!/"/>
+	</lib>
+	<lib name="slf4j-api-1.5.10.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.5.10.jar!/"/>
+	</lib>
+	<lib name="slf4j-log4j12-1.5.10.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.5.10.jar!/"/>
+	</lib>
+	<lib name="standard.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/standard.jar!/"/>
+	</lib>
+	<lib name="validation-api-1.0.0.GA.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/validation-api-1.0.0.GA.jar!/"/>
+	</lib>
+	<lib name="xsqlbuilder.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/xsqlbuilder.jar!/"/>
+	</lib>
+	<lib name="freemarker.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/generator/lib/freemarker.jar!/"/>
+	</lib>
+	<lib name="generator/lib/mysql-connector-java-5.0.5-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/generator/lib/mysql-connector-java-5.0.5-bin.jar!/"/>
+	</lib>
+	<lib name="ojdbc14.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/generator/lib/ojdbc14.jar!/"/>
+	</lib>
+	<lib name="rapid-generator-3.9.3.20100923.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/generator/lib/rapid-generator-3.9.3.20100923.jar!/"/>
+	</lib>
+	<lib name="rapid-generator-3.9.3.20100923-source.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/generator/lib/rapid-generator-3.9.3.20100923-source.jar!/"/>
+	</lib>
+	<lib name="sqljdbc.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/generator/lib/sqljdbc.jar!/"/>
+	</lib>
+	<lib name="antlr-2.7.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/antlr-2.7.6.jar!/"/>
+	</lib>
+	<lib name="ehcache-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/ehcache-1.2.1.jar!/"/>
+	</lib>
+	<lib name="ejb3-persistence.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/ejb3-persistence.jar!/"/>
+	</lib>
+	<lib name="hibernate-annotations.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate-annotations.jar!/"/>
+	</lib>
+	<lib name="hibernate-commons-annotations.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate-commons-annotations.jar!/"/>
+	</lib>
+	<lib name="hibernate3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate3.jar!/"/>
+	</lib>
+	<lib name="jackson-core-lgpl-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-lgpl-1.2.1.jar!/"/>
+	</lib>
+	<lib name="jackson-mapper-lgpl-1.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jackson-mapper-lgpl-1.2.1.jar!/"/>
+	</lib>
+	<lib name="javassist-3.9.0.GA.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.9.0.GA.jar!/"/>
+	</lib>
+	<lib name="jaxen-1.1-beta-7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jaxen-1.1-beta-7.jar!/"/>
+	</lib>
+	<lib name="jta-1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/jta-1.1.jar!/"/>
+	</lib>
+	<lib name="oscache-2.3.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/oscache-2.3.1.jar!/"/>
+	</lib>
+	<lib name="urlrewrite-2.6.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/urlrewrite-2.6.0.jar!/"/>
+	</lib>
+	<lib name="commons-codec-1.9.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.9.jar!/"/>
+	</lib>
+	<lib name="commons-fileupload-1.3.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.1.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.4.jar!/"/>
+	</lib>
+	<lib name="json.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/json.jar!/"/>
+	</lib>
+	<lib name="ueditor-1.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/web/WEB-INF/lib/ueditor-1.1.1.jar!/"/>
+	</lib>
+</component>

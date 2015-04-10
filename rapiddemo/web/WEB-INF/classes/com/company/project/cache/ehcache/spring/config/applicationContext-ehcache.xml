@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ehcache="http://www.springmodules.org/schema/ehcache"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springmodules.org/schema/ehcache http://www.springmodules.org/schema/cache/springmodules-ehcache.xsd">
+       <ehcache:config configLocation="classpath:/com/company/project/cache/ehcache/spring/config/ehcache.xml"
+                       id="cacheProvider" />
+       <ehcache:annotations providerId="cacheProvider">
+              <ehcache:caching cacheName="testCache" id="testCaching" />
+              <ehcache:flushing cacheNames="testCache" id="testFlushing" />
+       </ehcache:annotations>
+</beans>
